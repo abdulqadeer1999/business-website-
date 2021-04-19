@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import images from "../src/images/s3.svg"
+// import images from "../src/images/s3.svg"
+import images from "../src/images/home1.png"
 import Common from "./Common"
 
 const About = () => {

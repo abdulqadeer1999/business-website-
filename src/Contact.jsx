@@ -25,7 +25,7 @@ const InputEvent = (event) =>{
       `My name is ${data.fullname}.
        My Mobile Number is ${data.phone}.
        My Email is ${data.email},
-       Here is What I want to say ${data.message}`
+       Here is What I want to say : ${data.message}`
     )
   }
   return (
