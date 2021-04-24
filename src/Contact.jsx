@@ -42,6 +42,7 @@ const InputEvent = (event) =>{
                 <label htmlFor="exampleInputEmail1">Full Name</label>
                 <input type="text"
                 name = "fullname"
+                required="required"
                 value ={data.fullname}
                  onChange ={InputEvent}
                  className="form-control" 
@@ -54,6 +55,7 @@ const InputEvent = (event) =>{
                 <label htmlFor="exampleInputEmail1">Phone Number</label>
                 <input type="number"
                 name = "phone"
+                required="requires"
                 value ={data.phone}
                  onChange ={InputEvent}
                   className="form-control" aria-describedby="NumberHelp" placeholder="Enter Mobile Number" />
@@ -64,6 +66,7 @@ const InputEvent = (event) =>{
                 <label htmlFor="exampleInputEmail1">Email address</label>
                 <input type="email"
                  name = "email"
+                 required="required"
                 value ={data.email}
                  onChange ={InputEvent}
                   className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
@@ -73,6 +76,7 @@ const InputEvent = (event) =>{
               <div className="form-group">
                 <label for="exampleFormControlTextarea1">Enter Message</label>
                 <textarea className="form-control"
+                required="required"
                 name = "message"
                 value ={data.message}
                  onChange ={InputEvent}
