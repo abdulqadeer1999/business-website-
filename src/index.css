@@ -9,17 +9,19 @@
 }
 
 .navbar {
-  background-color: white !important;
+  background-color: #fff !important;
+  color: white !important;
 }
 
 .navbar-brand {
   font-size: 1.9rem !important;
-  color: #565387 !important;
+  color: #fff !important;
 }
 
 .navbar a {
   font-size: 1.3rem;
   text-transform: capitalize;
+  color: black !important;
 }
 
 .menu_active {

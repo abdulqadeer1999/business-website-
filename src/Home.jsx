@@ -11,6 +11,8 @@ const Home = () => {
        imgsrc={images} 
        visit= "/service"
         btname="Get Started" />
+        
+       
     </div>
   )
 }

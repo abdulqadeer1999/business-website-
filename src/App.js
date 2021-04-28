@@ -19,9 +19,16 @@ const App = () => {
        <Route exact path = "/about" component= {About} />
        <Route exact path = "/service" component= {Service} />
        <Route exact path = "/contact" component= {Contact} />
+       {/* <Route path="/github"  component = {Footer} /> */}
        <Redirect to = "/" />
-      
+       
+       
       </Switch>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Footer />
       
     </div>
