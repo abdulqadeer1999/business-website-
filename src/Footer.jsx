@@ -19,7 +19,7 @@ const Footer = () => {
 
     <h3>Company<span>logo</span></h3>
 
-    <p className="footer-links">
+    {/* <p className="footer-links">
         <a href="#">Home</a>
         ·
         <a href="#">Blog</a>
@@ -31,8 +31,9 @@ const Footer = () => {
         <a href="#">Faq</a>
         ·
         <a href="#">Contact</a>
-    </p>
-
+    </p> */}
+          <br/>
+          <br />
     <p className="footer-company-name">AQ Technologies &copy; 2021</p>
 </div>
 

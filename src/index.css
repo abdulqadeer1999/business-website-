@@ -7,11 +7,15 @@
   font-family: 'Mulish', sans-serif;
 
 }
+/* body {
+  background-image: url("./images/img2.jpg");
+} */
 
 .navbar {
   background-color: #fff !important;
   color: white !important;
 }
+
 
 .navbar-brand {
   font-size: 1.9rem !important;

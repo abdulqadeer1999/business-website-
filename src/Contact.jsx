@@ -2,6 +2,7 @@ import { useState } from "react";
 
 
 
+
 const Contact = () => {
   const [data,setData] =useState({
     fullname : "",
@@ -31,7 +32,7 @@ const InputEvent = (event) =>{
   return (
     <div>
       <div className="my-5">
-        <h1 className="text-center">Contact Us</h1>
+        <h1 className="text-center" style={{fontWeight:"bold"}} >Contact Us</h1>
       </div>
       <div className="container contact_div">
 
@@ -39,8 +40,9 @@ const InputEvent = (event) =>{
           <div className="col-md-6 col-10 mx-auto">
             <form onSubmit={formSubmit}>
               <div className="form-group">
-                <label htmlFor="exampleInputEmail1">Full Name</label>
+                <label htmlFor="exampleInputEmail1" style={{fontWeight:"bold"}}>Full Name</label>
                 <input type="text"
+               
                 name = "fullname"
                 required="required"
                 value ={data.fullname}
@@ -52,7 +54,7 @@ const InputEvent = (event) =>{
               </div> 
               <br />
               <div className="form-group">
-                <label htmlFor="exampleInputEmail1">Phone Number</label>
+                <label htmlFor="exampleInputEmail1"  style={{fontWeight:"bold"}}>Phone Number</label>
                 <input type="number"
                 name = "phone"
                 required="requires"
@@ -63,18 +65,18 @@ const InputEvent = (event) =>{
               </div>
               <br />
               <div className="form-group">
-                <label htmlFor="exampleInputEmail1">Email address</label>
+                <label htmlFor="exampleInputEmail1"  style={{fontWeight:"bold"}}>Email address</label>
                 <input type="email"
                  name = "email"
                  required="required"
                 value ={data.email}
                  onChange ={InputEvent}
                   className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                <small id="emailHelp" className="form-text text-muted"  style={{fontWeight:"bold"}}>We'll never share your email with anyone else.</small>
               </div>
               <br />
               <div className="form-group">
-                <label for="exampleFormControlTextarea1">Enter Message</label>
+                <label for="exampleFormControlTextarea1"  style={{fontWeight:"bold"}}>Enter Message</label>
                 <textarea className="form-control"
                 required="required"
                 name = "message"
