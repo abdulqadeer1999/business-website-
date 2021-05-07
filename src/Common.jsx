@@ -1,6 +1,6 @@
 
 import { NavLink } from "react-router-dom";
-import images from "../src/images/home1.png"
+
 
 const Common = (props) => {
   return (
